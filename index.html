@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angelo's Footprints</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Angelo's Footprints</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about-me"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a href="#contacts"><i class="fas fa-envelope"></i> Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Latest Blogs</h2>
+        <div id="blog-posts">
+            <!-- Blog posts will be inserted here -->
+        </div>
+    </div>
+    <div class="container" id="about-me">
+        <img src="assets/images/janjan.jpg" alt="Angelo Mahinay">
+        <h2>Welcome!</h2>
+        <p>Hello! My name is Angelo Mahinay. Welcome to my travel blog, where I share my adventures and experiences as I explore the world. I hope you find my posts informative and inspiring. Thank you for visiting, and enjoy your stay!</p>
+        <button id="admin-login">Admin</button>
+        <div id="login-popup" style="display: none;">
+            <form id="login-form">
+                <h2>Login</h2>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <footer id="contacts">
+        <div class="container">
+            <h3>Follow me on:</h3>
+            <nav>
+                <ul>
+                    <li><a href="#facebook"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#twitter"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
